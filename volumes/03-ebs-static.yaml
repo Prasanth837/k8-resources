@@ -9,7 +9,7 @@ spec:
     storage: 5Gi # should be less than or equal to your disk size
   csi:
     driver: ebs.csi.aws.com
-    fsType: gp3
+    fsType: ext4
     volumeHandle: vol-00a12ecc27c4e27ae
 ---
 apiVersion: v1
